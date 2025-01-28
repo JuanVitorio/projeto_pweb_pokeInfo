@@ -5,21 +5,27 @@ export default function Home() {
   return (
     <div className="home_container">
       <header className="main_header">
-      <Image src="/images/pokeinfo.png" width={220} height={60} alt="logo"/>
+        <Image 
+          src="/images/pokeinfo.png" 
+          width={220} 
+          height={60} 
+          alt="logo"
+          priority 
+        />
       </header>
 
       <header className="second_header">
-      <div className="mini_box"></div>
+        <div className="mini_box"></div>
       </header>
 
       <div className="box_main">
         <h1>Opções</h1>
         <div className="link_box">
-          <Link href='/pokemon' className="link_a">
-          Listar todos os Pokémons
+          <Link href="/pokemon" className="link_a">
+            Listar todos os Pokémons
           </Link>
-          <Link href='/pokeSearch' className="link_a">
-          Pesquisar Pokémon
+          <Link href="/pokeSearch" className="link_a">
+            Pesquisar Pokémon
           </Link>
         </div>
       </div>
