@@ -60,7 +60,7 @@ export default function PokemonList() {
 
   // Se estamos no servidor, não renderize os dados
   if (!isClient) {
-    return <div>Carregando...</div>;
+    return <div className="load_screen">Carregando...</div>;
   }
 
   return (
@@ -108,7 +108,7 @@ export default function PokemonList() {
               );
             })
           ) : (
-            <p className="loading">Carregando Pokémon...</p>
+            <p className="load_screen">Carregando Pokémon...</p>
           )}
 
           {/* Ponto de referência para carregar mais */}

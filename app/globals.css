@@ -66,7 +66,7 @@ a{
   margin-top: 20px;
   background-color: #f0f0f0;
   border-radius: 10px;
-  position: absolute;
+
 }
 
 .pokemon_details {
@@ -197,7 +197,7 @@ a{
   background-color: #f5f5f5;
   padding: 20px;
   border-radius: 10px;
-  position: absolute;
+  padding: 10px;
 }
 
 .details_screen{
@@ -212,7 +212,7 @@ a{
 
 .home_container {
   text-align: center;
-  background-color: #eeeeee;
+  background-color: #f1f1f1;
   min-height: 100vh;
 }
 
