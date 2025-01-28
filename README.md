@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Como usar o projeto
+Primeiro, é necessário ter o React instalado na máquina e ter baixado o projeto.
+Após ter o projeto baixado e descompactado, abra um terminal e acesse o local onde foi descompactado o projeto. 
 
-## Getting Started
-
-First, run the development server:
-
+Instale o next no projeto usando o comando:
+```bash
+npm i next
+```
+Após isso, deverá ser possível rodar a aplicação usando o comando:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+É necessário que seja rodado na raíz do projeto.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Após isso, vá ao navegador de sua preferência e abra o link:
+[http://localhost:3000](http://localhost:3000)
+Isso te levará até o front da aplicação.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Agora no projeto, temos duas opções na tela inicial:
+- Listar Pokémons
+- Pesquisar Pokémon
 
-## Learn More
+**A parte de listagem** irá mostrar todos os pokémons presentes na PokéAPI, API usando nesse projeto.
+Ao clicar em algum pokémon, você será direcionado para uma página de detalhes sobre o mesmo, possuíndo detalhes do pokémon e um botão que te direciona para a home.
 
-To learn more about Next.js, take a look at the following resources:
+**A parte de pesquisa**, você terá uma caixa com uma barra de pesquisa e um botão, ao digitar o nome de um pokémon, ele irá te sugerir pesquisas similares a sua. Pesquisando pelo nome do pokémon, você será levado para a página de detalhes do mesmo.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
